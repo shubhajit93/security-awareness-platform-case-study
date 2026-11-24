@@ -160,7 +160,7 @@ The public marketing site is a separate **Next.js 14 + Tailwind** application.
 
 - A production multi-tenant SaaS with **10 backend services**, run by a **5-engineer team**
 - **3 simulation channels** (email, SMS, voice) plus deepfake content, all running through one async pipeline
-- **4 environments** fully defined in Terraform and deployed by CI/CD with one-step rollback
+- **4 environments** fully defined in Terraform and deployed by CI/CD with one-step rollback. Replacing manual setup with code **significantly cut provisioning time** and made every environment reproducible
 - **~50% faster** frontend load after moving assets to CloudFront
 
 ## 7. What I'd do next
