@@ -5,6 +5,8 @@
 
 **My role:** I lead a team of 5 engineers. I own the backend architecture, I'm the top contributor to the backend codebase, and I built nearly all of the infrastructure as code, the server setup, and the CI/CD. I set the API contracts for the frontend team and mentored them on the micro-frontend architecture.
 
+**Status:** v1 is live in production. The client is onboarding its first customers through pilots, and current work focuses on new features, scalability, and performance.
+
 **Stack:** Java 17 · Spring Boot 3.3 (WebFlux) · Spring Cloud Gateway · MongoDB 8 (replica set) · Redis · Amazon SQS · AWS (SES, S3, CloudFront, ECR, Transcribe, KMS, SSM, Secrets Manager, Route 53, ACM) · Terraform · Docker Compose (previously EKS) · Nginx · GitHub Actions · Prometheus · Loki · OpenTelemetry · Grafana · k6 · React + TypeScript (Module Federation) · Next.js
 
 ---
@@ -191,7 +193,7 @@ The public marketing site is a separate **Next.js 14 + Tailwind** application.
 
 ## 7. Results
 
-- A production multi-tenant SaaS with **10 backend services**, run by a **5-engineer team**
+- **v1 live in production**: a multi-tenant SaaS with **10 backend services**, run by a **5-engineer team**
 - **3 simulation channels** (email, SMS, voice) plus deepfake video, all running through one queue-based pipeline with dead-letter queues
 - **4 environments** whose AWS resources are defined in Terraform and whose releases go through CI/CD with three test stages and one-step rollback. Replacing manual setup with code **significantly cut provisioning time**
 - **Lower infrastructure cost** after moving compute from EKS to Docker Compose hosts, with no change to the managed AWS services
